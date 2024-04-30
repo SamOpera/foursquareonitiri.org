@@ -13,13 +13,13 @@
   }
 
   nav ul {
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   nav li {
-    margin: 10px;
+    margin: 0 10px;
   }
 
   main {
@@ -28,5 +28,13 @@
 
   .background-images {
     height: 60vh;
+  }
+
+  .footer-content .Navigations {
+    flex-direction: column;
+  }
+
+  .footer-content .Navigations div {
+    margin: 10px 0;
   }
 }
